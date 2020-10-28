@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Counting Tool</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Count using the numbers below:</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="countTo">Count to:</label>
+            <input id="countTo" class="form-control" type="number" required/>
+          </div>
+          <div class="form-group">
+            <label for="countBy">Count by:</label>
+            <input id="countBy" class="form-control" type="number" required/>
+          </div>
+          <button type="submit" class="btn">Count!</button>
+        </form>
+      </div>
+      <div id="results">
+        <h1>Your results:</h1>
+        <p id="maths"></p>
+      </div>
+    </div>
+  </body>
+</html>
